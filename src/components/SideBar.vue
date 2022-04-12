@@ -8,56 +8,56 @@
     <hr class="horizontal-divider" />
     <div class="menu-wrapper">
       <router-link
-        to="/dashboard"
+        to="/"
         :class="{ 'active-sidebar': active === 'dashboard' }"
         class="menu-items"
         @click="changeActive('dashboard')"
         >Dashboard</router-link
       >
       <router-link
-        to="/dashboard"
+        to="/"
         class="menu-items"
         :class="{ 'active-sidebar': active === 'conversations' }"
         @click="changeActive('conversations')"
         >Conversations</router-link
       >
       <router-link
-        to="/dashboard"
+        to="/"
         class="menu-items"
         :class="{ 'active-sidebar': active === 'automations' }"
         @click="changeActive('automations')"
         >Automations</router-link
       >
       <router-link
-        to="/dashboard"
+        to="/"
         class="menu-items"
         :class="{ 'active-sidebar': active === 'campaigns' }"
         @click="changeActive('campaigns')"
         >Campaigns</router-link
       >
       <router-link
-        to="/dashboard"
+        to="/"
         class="menu-items"
         :class="{ 'active-sidebar': active === 'popup' }"
         @click="changeActive('popup')"
         >Popup</router-link
       >
       <router-link
-        to="/dashboard"
+        to="/"
         class="menu-items"
         :class="{ 'active-sidebar': active === 'livechat' }"
         @click="changeActive('livechat')"
         >Live Chat</router-link
       >
       <router-link
-        to="/dashboard"
+        to="/"
         class="menu-items"
         :class="{ 'active-sidebar': active === 'segments' }"
         @click="changeActive('segments')"
         >Segments</router-link
       >
       <router-link
-        to="/dashboard"
+        to="/"
         class="menu-items"
         :class="{ 'active-sidebar': active === 'integration' }"
         @click="changeActive('integration')"
