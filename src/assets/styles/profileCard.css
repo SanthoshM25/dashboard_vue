@@ -1,0 +1,21 @@
+.profile-card-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 20%;
+  height: 60%;
+  margin-right: 5%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.description {
+  color: var(--secondary);
+  font-weight: 400;
+  font-size: 0.8rem;
+}

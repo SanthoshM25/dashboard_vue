@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #20294b;
+  --secondary: #51586c;
+  --blue: #3483f7;
+}
+
+* {
+  font-family: "Anek Tamil", sans-serif;
+}

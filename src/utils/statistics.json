@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Total Revenue",
+    "variation": "+12.5%",
+    "content": "$32,621.72",
+    "subContent": "433 Orders",
+    "color": "green"
+  },
+  {
+    "title": "Subscribers",
+    "variation": "+32.5%",
+    "content": "484,205",
+    "subContent": "$56 Average Order",
+    "color": "green"
+  },
+  {
+    "title": "Conversations",
+    "variation": "-3.4%",
+    "content": "$32,621.72",
+    "subContent": "433 Orders",
+    "color": "red"
+  },
+  {
+    "title": "Popup Conversion Rate",
+    "variation": "+32.5%",
+    "content": "25%",
+    "subContent": "5% Sales Conversion Rate",
+    "color": "green"
+  }
+]
