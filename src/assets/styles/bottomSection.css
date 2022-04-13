@@ -1,0 +1,30 @@
+.bottom-section-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5em;
+  border-bottom: 2px solid rgb(239, 245, 254);
+}
+
+.bottom-menu-items {
+  color: var(--secondary);
+  font-weight: 500;
+  padding: 0.3em 2em;
+}
+
+.bottom-menu-items:hover {
+  border-radius: 50px;
+  background-color: rgb(239, 245, 254);
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.active-bottom-menu.bottom-menu-items {
+  border-bottom: 2px solid var(--blue);
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.active-bottom-menu.bottom-menu-items:hover {
+  background-color: #fff;
+  border-radius: 0;
+}

@@ -3,6 +3,8 @@ import "../assets/styles/dashboard.css";
 import ProfileCard from "./ProfileCard.vue";
 import StatisticsCard from "./StatisticsCard.vue";
 import Stats from "../utils/statistics.json";
+import LineChart from "./LineChart.vue";
+import BottomSection from "./BottomSection.vue";
 </script>
 
 <template>
@@ -16,5 +18,9 @@ import Stats from "../utils/statistics.json";
     <div class="statistics-wrapper">
       <StatisticsCard v-for="(stat, i) in Stats" :key="i" :data="stat" />
     </div>
+    <div class="chart-space" />
+
+    <LineChart :height="325" :width="350" />
+    <BottomSection />
   </div>
 </template>

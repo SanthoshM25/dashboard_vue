@@ -1,8 +1,48 @@
 .statistics-wrapper {
   display: flex;
-  margin: 0 1.5em;
+  margin: 0 1.5em 0 0;
+  padding: 0 0.5em;
 }
 
 .title-wrapper {
   display: flex;
+  align-items: center;
+}
+
+.statistics-title,
+.sub-content {
+  color: #888686;
+}
+
+.variation {
+  padding: 0.4em;
+  font-size: 0.8rem;
+  border-radius: 14px;
+  margin-left: 1em;
+  font-weight: 600;
+}
+
+.green {
+  background-color: rgb(213, 235, 213);
+  color: rgb(10, 132, 10);
+}
+
+.red {
+  background-color: rgb(250, 203, 203);
+  color: rgb(240, 68, 68);
+}
+
+.content {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.hr {
+  width: 0.1em;
+  background-color: #eee;
+  margin-right: 2em;
+}
+
+.hr:last-child {
+  display: none;
 }

@@ -1,10 +1,16 @@
 .dashboard-wrapper {
   display: flex;
   flex-direction: column;
+  margin-left: 26%;
+  height: auto;
 }
 .dashboard-user-card {
-  height: 20%;
+  height: 30%;
   width: 40%;
   padding: 0.2em;
   font-size: 4em;
+}
+
+.chart-space {
+  margin: 1em;
 }

@@ -1,11 +1,14 @@
 .profile-card-wrapper {
   display: flex;
+  width: auto;
+  height: auto;
   align-items: center;
 }
 
 .user-avatar {
   width: 20%;
   height: 60%;
+  object-fit: contain;
   margin-right: 5%;
 }
 

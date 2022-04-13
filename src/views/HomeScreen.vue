@@ -7,7 +7,7 @@ import "../assets/styles/homescreen.css";
 
 <template>
   <div class="homescreen-wrapper">
-    <SideBarVue />
+    <SideBarVue class="sidebar" />
     <router-view />
   </div>
 </template>
