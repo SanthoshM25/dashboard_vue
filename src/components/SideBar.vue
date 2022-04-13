@@ -85,7 +85,7 @@
 </template>
 
 <script>
-import "../assets/styles/sidebar.css";
+import "../assets/styles/sideBar.css";
 import ProfileCard from "./ProfileCard.vue";
 export default {
   name: "SideBar",

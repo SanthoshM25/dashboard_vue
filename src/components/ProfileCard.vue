@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import "../assets/styles/profilecard.css";
+import "../assets/styles/profileCard.css";
 export default {
   props: ["title", "description"],
 };

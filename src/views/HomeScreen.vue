@@ -2,7 +2,7 @@
 import { RouterView } from "vue-router";
 import SideBarVue from "../components/SideBar.vue";
 import Dashboard from "../components/Dashboard.vue";
-import "../assets/styles/homescreen.css";
+import "../assets/styles/homeScreen.css";
 </script>
 
 <template>
