@@ -1,5 +1,5 @@
 <script setup>
-import "../assets/styles/dashboard.css";
+import "../assets/styles/dashBoard.css";
 import ProfileCard from "./ProfileCard.vue";
 import StatisticsCard from "./StatisticsCard.vue";
 import Stats from "../utils/statistics.json";
