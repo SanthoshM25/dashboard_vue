@@ -1,6 +1,6 @@
 <template>
   <div class="statistics-wrapper">
-    <div>
+    <div class="statistics-card-wrapper">
       <div class="title-wrapper">
         <p class="statistics-title">{{ data.title }}</p>
         <p :class="{ green: data.green, red: !data.green }" class="variation">

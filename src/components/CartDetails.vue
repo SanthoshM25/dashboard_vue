@@ -2,7 +2,7 @@
   <div class="cart-wrapper">
     <div class="icon-title-wrapper">
       <i class="fa-solid fa-cart-shopping fa-lg cart-icon"></i>
-      <div class="title-wrapper">
+      <div class="cart-title-wrapper">
         <p class="cart-title">{{ order.title }}</p>
         <div class="sub-title-wrapper">
           <p class="cart-sub-title">{{ order.sent + " Sent" }}</p>
