@@ -1,7 +1,7 @@
 .sidebar-wrapper {
   padding: 0.2em 1.5em;
   border-right: 2px solid rgb(212, 210, 210);
-  max-width: 24%;
+  max-width: 22%;
 }
 
 .logo-wrapper {
@@ -26,13 +26,13 @@
 .search-box {
   margin-top: 1em;
   border-radius: 50px;
-  padding: 0.5em 0 0.5em 1.5em;
+  padding: 0.5em 0.6em 0.5em 1.5em;
   background-color: rgb(244, 246, 251);
   color: var(--secondary);
 }
 
 .horizontal-divider {
-  margin: 1em 0.5em 0;
+  margin: 1em 0.5em 0 0;
 }
 
 .menu-wrapper {

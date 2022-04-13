@@ -1,7 +1,7 @@
 .dashboard-wrapper {
   display: flex;
   flex-direction: column;
-  margin-left: 26%;
+  margin-left: 24%;
   height: auto;
 }
 .dashboard-user-card {
